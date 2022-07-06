@@ -11,7 +11,7 @@ public class NftModel {
     private Long id;
     private String nombre;
     private String imgurl;
-    private Float precio;
+    private Integer precio;
 
     public Long getId() {
         return this.id;
@@ -37,11 +37,11 @@ public class NftModel {
         this.imgurl = imgurl;
     }
 
-    public Float getPrecio() {
+    public Integer getPrecio() {
         return this.precio;
     }
 
-    public void setPrecio(Float precio) {
+    public void setPrecio(Integer precio) {
         this.precio = precio;
     }
     
