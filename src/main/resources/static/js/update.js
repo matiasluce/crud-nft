@@ -34,7 +34,7 @@ function modificar() {
         imgurl: e,
         prioridad: p
     }
-    let url = "http://localhost:8080/nfts"
+    let url = "https://crud-nft-java.herokuapp.com/nfts"
     var options = {
         body: JSON.stringify(nft),
         method: 'POST',

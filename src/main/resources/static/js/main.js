@@ -9,7 +9,7 @@ if (document.getElementById("app")){
             }
         },
         created(){
-            var url="http://localhost:8080/nfts"
+            var url="https://crud-nft-java.herokuapp.com/nfts"
             this.fetchData(url);
         },
         methods:{
@@ -25,7 +25,7 @@ if (document.getElementById("app")){
                     })
             },
             eliminar(nft) {
-                const url = 'http://localhost:8080/nfts/' + nft;
+                const url = 'https://crud-nft-java.herokuapp.com/nfts/' + nft;
                 var options = {
                     method: 'DELETE',
                 }
